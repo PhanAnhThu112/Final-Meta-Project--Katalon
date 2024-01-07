@@ -17,29 +17,12 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://meta.vn/')
 
-WebUI.click(findTestObject('Object Repository/Search/STC_01/Page_Mua hng online, Mua sm trc tuyn gi tt nht/i_fa fa-user'))
+WebUI.setText(findTestObject('Object Repository/Search/STC_07/Page_Mua hng online, Mua sm trc tuyn gi tt nht/input_q'), 
+    'Quạt tháp 2 chiều sưởi ấm và làm mát')
 
-WebUI.click(findTestObject('Object Repository/Page_META.vn - Mua sm trc tuyn/div_Tip tc vi Google'))
+WebUI.click(findTestObject('Object Repository/Search/STC_07/Page_Mua hng online, Mua sm trc tuyn gi tt nht/inputbtnFindSearch'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Sign in - Google Accounts/input_identifier'), 'thuy.bui24@student.passerellesnumeriques.org')
-
-WebUI.click(findTestObject('Object Repository/Page_Sign in - Google Accounts/div_VfPpkd-RLmnJb'))
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Sign in - Google Accounts/input_Passwd'), '0qqg/EH1/8oTayJsh4sAYQ==')
-
-WebUI.click(findTestObject('Object Repository/Page_Sign in - Google Accounts/div_VfPpkd-RLmnJb_1'))
-
-WebUI.click(findTestObject('Search/STC_01/Page_Mua hng online, Mua sm trc tuyn gi tt nht/li_Tr gp490KMy git Samsung Inverter 9.5kg WA95CG4545BDSV (Model 2023)Samsung5.500.000-85.990.000Kt thc sau6 ngy Cn 7(4)5.500.000 5.990.000'))
-
-WebUI.click(findTestObject('Object Repository/Page_My nho bt Gourmetmaxx SM-1504 (5 lt, 1_3dfe4d/button_'))
-
-WebUI.click(findTestObject('Object Repository/Page_My nho bt Gourmetmaxx SM-1504 (5 lt, 1_d195ff/a_Cho vo gi'))
-
-WebUI.click(findTestObject('Object Repository/Page_My nho bt Gourmetmaxx SM-1504 (5 lt, 1_d195ff/i_fa fa-shopping-cart'))
-
-WebUI.closeBrowser()
