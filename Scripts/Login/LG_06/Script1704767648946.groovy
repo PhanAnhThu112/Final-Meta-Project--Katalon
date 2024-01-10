@@ -19,10 +19,10 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 WebUI.navigateToUrl('https://meta.vn/')
-WebUI.click(findTestObject('Object Repository/Page_Mua hng online, Mua sm trc tuyn gi tt nht/Page_Mua hng online, Mua sm trc tuyn gi tt nht/i_ng nhp_fa fa-user'))
-WebUI.click(findTestObject('Object Repository/Page_META.vn - Mua sm trc tuyn/a_ng nhp bng email'))
-WebUI.setText(findTestObject('Object Repository/Page_META.vn - Mua sm trc tuyn/input_form-input form-u actived'), 'phuong.zorum24student.passerellesnumeriques.org')
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_META.vn - Mua sm trc tuyn/input_form-input form-p'), 'Evr8jbf0RWTxDTjuNeHdNw==')
+WebUI.click(findTestObject('Object Repository/Checkout/Page_Mua hng online, Mua sm trc tuyn gi tt nht/Page_Mua hng online, Mua sm trc tuyn gi tt nht/i_ng nhp_fa fa-user'))
+WebUI.click(findTestObject('Object Repository/Checkout/Page_META.vn - Mua sm trc tuyn/a_ng nhp bng email'))
+WebUI.setText(findTestObject('Object Repository/Checkout/Page_META.vn - Mua sm trc tuyn/input_form-input form-u actived'), 'phuong.zorum24student.passerellesnumeriques.org')
+WebUI.setEncryptedText(findTestObject('Object Repository/Checkout/Page_META.vn - Mua sm trc tuyn/input_form-input form-p'), 'Evr8jbf0RWTxDTjuNeHdNw==')
 
-WebUI.click(findTestObject('Object Repository/Page_META.vn - Mua sm trc tuyn/a_ng nhp'))
+WebUI.click(findTestObject('Object Repository/Checkout/Page_META.vn - Mua sm trc tuyn/a_ng nhp'))
 

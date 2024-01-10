@@ -21,36 +21,36 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://meta.vn/sua-tam-c913')
 
-WebUI.click(findTestObject('Object Repository/Page_Sa tm Chnh hng, Gi tt  META.vn/img_thumb-list is-thumb'))
+WebUI.click(findTestObject('Object Repository/Checkout/Page_Sa tm Chnh hng, Gi tt  META.vn/img_thumb-list is-thumb'))
 
-WebUI.click(findTestObject('Object Repository/Page_Sa tm tho dc Nature Queen (100ml) - META.vn/button_t mua'))
+WebUI.click(findTestObject('Object Repository/Checkout/Page_Sa tm tho dc Nature Queen (100ml) - META.vn/button_t mua'))
 
-WebUI.setText(findTestObject('Object Repository/Page_META.vn - Mua sm trc tuyn/input_name'), name_cus)
+WebUI.setText(findTestObject('Object Repository/Checkout/Page_META.vn - Mua sm trc tuyn/input_name'), name_cus)
 
-WebUI.setText(findTestObject('Object Repository/Page_META.vn - Mua sm trc tuyn/input_phone'), phone_cus)
+WebUI.setText(findTestObject('Object Repository/Checkout/Page_META.vn - Mua sm trc tuyn/input_phone'), phone_cus)
 
-WebUI.click(findTestObject('Object Repository/Page_META.vn - Mua sm trc tuyn/span_TnhThnh ph'))
+WebUI.click(findTestObject('Object Repository/Checkout/Page_META.vn - Mua sm trc tuyn/span_TnhThnh ph'))
 
-WebUI.click(findTestObject('Object Repository/Page_META.vn - Mua sm trc tuyn/li_Nng'))
+WebUI.click(findTestObject('Object Repository/Checkout/Page_META.vn - Mua sm trc tuyn/li_Nng'))
 
-WebUI.click(findTestObject('Object Repository/Page_META.vn - Mua sm trc tuyn/li_Qun Sn Tr'))
+WebUI.click(findTestObject('Object Repository/Checkout/Page_META.vn - Mua sm trc tuyn/li_Qun Sn Tr'))
 
-WebUI.click(findTestObject('Object Repository/Page_META.vn - Mua sm trc tuyn/li_Phng Phc M'))
+WebUI.click(findTestObject('Object Repository/Checkout/Page_META.vn - Mua sm trc tuyn/li_Phng Phc M'))
 
-WebUI.setText(findTestObject('Object Repository/Page_META.vn - Mua sm trc tuyn/input_address'), address_cus)
+WebUI.setText(findTestObject('Object Repository/Checkout/Page_META.vn - Mua sm trc tuyn/input_address'), address_cus)
 
-WebUI.click(findTestObject('Object Repository/Page_META.vn - Mua sm trc tuyn/input_chkvat'))
+WebUI.click(findTestObject('Object Repository/Checkout/Page_META.vn - Mua sm trc tuyn/input_chkvat'))
 
-WebUI.setText(findTestObject('Object Repository/Page_META.vn - Mua sm trc tuyn/input_t_code'), code)
+WebUI.setText(findTestObject('Object Repository/Checkout/Page_META.vn - Mua sm trc tuyn/input_t_code'), code)
 
-WebUI.setText(findTestObject('Object Repository/Page_META.vn - Mua sm trc tuyn/input_t_name'),companyname)
+WebUI.setText(findTestObject('Object Repository/Checkout/Page_META.vn - Mua sm trc tuyn/input_t_name'),companyname)
 
-WebUI.click(findTestObject('Object Repository/Page_META.vn - Mua sm trc tuyn/input_t_name'))
+WebUI.click(findTestObject('Object Repository/Checkout/Page_META.vn - Mua sm trc tuyn/input_t_name'))
 
-WebUI.setText(findTestObject('Object Repository/Page_META.vn - Mua sm trc tuyn/input_t_address'), companyadd)
+WebUI.setText(findTestObject('Object Repository/Checkout/Page_META.vn - Mua sm trc tuyn/input_t_address'), companyadd)
 
-WebUI.setText(findTestObject('Object Repository/Page_META.vn - Mua sm trc tuyn/input_t_email'), email)
+WebUI.setText(findTestObject('Object Repository/Checkout/Page_META.vn - Mua sm trc tuyn/input_t_email'), email)
 
-WebUI.click(findTestObject('Object Repository/Page_META.vn - Mua sm trc tuyn/a_Gi n hng'))
+WebUI.click(findTestObject('Object Repository/Checkout/Page_META.vn - Mua sm trc tuyn/a_Gi n hng'))
 
-WebUI.click(findTestObject('Object Repository/Page_t hng thnh cng/button_B qua'))
+WebUI.click(findTestObject('Object Repository/Checkout/Page_t hng thnh cng/button_B qua'))

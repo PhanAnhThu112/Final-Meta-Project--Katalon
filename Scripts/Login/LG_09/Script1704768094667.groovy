@@ -21,12 +21,12 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://meta.vn/')
 
-WebUI.click(findTestObject('Object Repository/Page_Mua hng online, Mua sm trc tuyn gi tt nht/i_fa fa-user'))
+WebUI.click(findTestObject('Object Repository/Checkout/Page_Mua hng online, Mua sm trc tuyn gi tt nht/i_fa fa-user'))
 
-WebUI.setText(findTestObject('Object Repository/Page_META.vn - Mua sm trc tuyn/input_form-input form-u actived'), '0332427573')
+WebUI.setText(findTestObject('Object Repository/Checkout/Page_META.vn - Mua sm trc tuyn/input_form-input form-u actived'), '0332427573')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_META.vn - Mua sm trc tuyn/input_form-input form-p'), 'Evr8jbf0RWRtfNjExVaakg==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Checkout/Page_META.vn - Mua sm trc tuyn/input_form-input form-p'), 'Evr8jbf0RWRtfNjExVaakg==')
 
-WebUI.click(findTestObject('Object Repository/Page_META.vn - Mua sm trc tuyn/i_fa fa-eye'))
+WebUI.click(findTestObject('Object Repository/Checkout/Page_META.vn - Mua sm trc tuyn/i_fa fa-eye'))
 
-WebUI.click(findTestObject('Object Repository/Page_META.vn - Mua sm trc tuyn/a_ng nhp'))
+WebUI.click(findTestObject('Object Repository/Checkout/Page_META.vn - Mua sm trc tuyn/a_ng nhp'))
