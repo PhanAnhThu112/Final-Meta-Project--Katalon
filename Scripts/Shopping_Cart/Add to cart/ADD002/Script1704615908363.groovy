@@ -21,24 +21,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://meta.vn/')
 
-//WebUI.click(findTestObject('Object Repository/Page_Mua hng online, Mua sm trc tuyn gi tt nht/i_fa fa-user'))
-//
-//WebUI.click(findTestObject('Object Repository/Page_META.vn - Mua sm trc tuyn/div_Tip tc vi Google'))
-//
-//WebUI.setText(findTestObject('Object Repository/Page_Sign in - Google Accounts/input_identifier'), 'thuy.bui24@student.passerellesnumeriques.org')
-//
-//WebUI.click(findTestObject('Object Repository/Page_Sign in - Google Accounts/div_VfPpkd-RLmnJb'))
-//
-//WebUI.setEncryptedText(findTestObject('Object Repository/Page_Sign in - Google Accounts/input_Passwd'), '0qqg/EH1/8oTayJsh4sAYQ==')
-//
-//WebUI.click(findTestObject('Object Repository/Page_Sign in - Google Accounts/div_VfPpkd-RLmnJb_1'))
+WebUI.click(findTestObject('Shopping_Cart/ADD001/Page_Mua hng online, Mua sm trc tuyn gi tt nht (2)/div_Tr gp-15T lnh 4'))
 
-//WebUI.click(findTestObject('Page_Mua hng online, Mua sm trc tuyn gi tt nht/li_Tr gp490KMy git Samsung Inverter 9.5kg WA95CG4545BDSV (Model 2023)Samsung5.500.000-85.990.000Kt thc sau6 ngy Cn 7(4)5.500.000 5.990.000'))
+WebUI.click(findTestObject('Object Repository/Shopping_Cart/ADD001/Page_My nho bt Gourmetmaxx SM-1504 (5 lt, 1_3dfe4d/button_'))
 
-WebUI.click(findTestObject('Object Repository/Page_My nho bt Gourmetmaxx SM-1504 (5 lt, 1_3dfe4d/button_'))
+WebUI.click(findTestObject('Object Repository/Shopping_Cart/ADD001/Page_My nho bt Gourmetmaxx SM-1504 (5 lt, 1_d195ff/a_Cho vo gi'))
 
-WebUI.click(findTestObject('Object Repository/Page_My nho bt Gourmetmaxx SM-1504 (5 lt, 1_d195ff/a_Cho vo gi'))
-
-WebUI.click(findTestObject('Object Repository/Page_My nho bt Gourmetmaxx SM-1504 (5 lt, 1_d195ff/i_fa fa-shopping-cart'))
+WebUI.click(findTestObject('Object Repository/Shopping_Cart/ADD001/Page_My nho bt Gourmetmaxx SM-1504 (5 lt, 1_d195ff/i_fa fa-shopping-cart'))
 
 WebUI.closeBrowser()
+
