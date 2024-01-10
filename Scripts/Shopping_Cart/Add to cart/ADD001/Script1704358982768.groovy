@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://meta.vn/')
 
-//WebUI.click(findTestObject('Object Repository/Page_Mua hng online, Mua sm trc tuyn gi tt nht/i_fa fa-user'))
+//WebUI.click(findTestObject('null'))
 
 //WebUI.click(findTestObject('Object Repository/Page_META.vn - Mua sm trc tuyn/div_Tip tc vi Google'))
 
